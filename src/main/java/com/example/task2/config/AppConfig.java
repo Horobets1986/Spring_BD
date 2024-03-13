@@ -10,8 +10,8 @@ public class AppConfig {
     @Bean(name = "student")
     public Student student(){
         Student student= new Student();
-        student.setName("maria");
-        student.setAge(112);
+        student.setName("Pit");
+        student.setAge(30);
         return student;
     }
 }
